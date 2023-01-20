@@ -63,3 +63,7 @@ header {
 .latest_news .row .card-body {
     height: 520px;
 }
+img.star {
+    width: 20px;
+    height: 20px;
+}
