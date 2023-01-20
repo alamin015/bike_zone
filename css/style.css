@@ -29,6 +29,21 @@ header {
 .custom:hover {
     background: var(--hover);
 }
+.custom-outline {
+    background: transparent;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    padding: 10px 35px;
+    transition: all 0.2s ease-in;
+}
+.custom-outline:hover {
+    background: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+}
 .logo {
     font-size: 35px;
 }
@@ -43,4 +58,8 @@ header {
     background: #E76F51;
     border: 1px solid #E76F51;
     margin: 0 auto;
+}
+
+.latest_news .row .card-body {
+    height: 520px;
 }
