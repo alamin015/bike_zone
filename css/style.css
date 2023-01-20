@@ -1,5 +1,7 @@
 
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 :root {
     --primary: #E76F51;
     --hover: #bb492d;
@@ -22,7 +24,7 @@ header {
     font-size: 18px;
     border-radius: 8px;
     border: none;
-    padding: 15px 35px;
+    padding: 10px 35px;
 }
 .custom:hover {
     background: var(--hover);
@@ -33,4 +35,12 @@ header {
 .text-color .nav-link,
 .text-color .nav-link.active{
     color: var(--white);
+}
+
+.feature_title > div{
+    width: 200px;
+    height: 1px;
+    background: #E76F51;
+    border: 1px solid #E76F51;
+    margin: 0 auto;
 }
