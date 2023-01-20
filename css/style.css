@@ -1,0 +1,36 @@
+
+
+:root {
+    --primary: #E76F51;
+    --hover: #bb492d;
+    --white: #FFFFFF;
+}
+
+header {
+    background: linear-gradient(#264653,#264653);
+}
+.banner-bike {
+    background: url(../images/Group\ 33068.png);
+    background-position: 94% 10%;
+    /* background-size: contain; */
+    background-repeat:no-repeat;
+}
+.custom {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 35px;
+}
+.custom:hover {
+    background: var(--hover);
+}
+.logo {
+    font-size: 35px;
+}
+.text-color .nav-link,
+.text-color .nav-link.active{
+    color: var(--white);
+}
